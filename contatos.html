@@ -20,25 +20,43 @@
         </ul>
       </nav> 
     </div>
-    <main>
-      <form>
-        <label for="nomeSobrenome">Nome e Sobrenome:</label>
-        <input type="text" id="nomeSobrenome">
+  </header>
+      <main>
+        <form>
+          <label for="nomeSobrenome">Nome e Sobrenome:</label>
+          <input type="text" id="nomeSobrenome" class="input-padrao">
 
-        <label for="email">Email:</label>
-        <input type="text" id="email">
+          <label for="email">Email:</label>
+          <input type="text" id="email" class="input-padrao" >
 
-        <label for="telefone">Telefone:</label>
-        <input type="text" id="telefone">
+          <label for="telefone">Telefone:</label>
+          <input type="text" id="telefone" class="input-padrao">
 
-        <input type="submit">
-      </form>
+          <label for="msg">Mensagem</label>
+          <textarea name="Mensagem" id="msg"  cols="70" rows="10" class="input-padrao"></textarea>
 
-    </main>
-    <footer>
-      <img src="image/logo-branco.png" alt="">
-      <p class="copyright"> &copy; Copyright Barbearia Alura 2022</p>
-    </footer>
-  </header>    
-</body>
+          <div>
+            <p>Como prefere o nosso contato?</p>
+            <label for="radio-email">Email</label>
+            <input type="radio" name=contato value="email" id="radio-email">
+  
+            <label for="radio-telefone">Telefone</label>
+            <input type="radio" name=contato value="Telefone" id="raio-telefone">
+  
+            <label for="zap-radio">WhatsApp</label>
+            <input type="radio" name=contato value="Whatsapp" id="zap-radio">
+  
+          </div>
+
+          <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades?</label>
+          
+          <input type="submit" name=contato value="Enviar Formulário">
+        </form>
+
+      </main>
+      <footer>
+        <img src="image/logo-branco.png" alt="">
+        <p class="copyright"> &copy; Copyright Barbearia Alura 2022</p>
+      </footer>
+    </body>
 </html>
