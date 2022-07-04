@@ -27,26 +27,34 @@
           <input type="text" id="nomeSobrenome" class="input-padrao">
 
           <label for="email">Email:</label>
-          <input type="text" id="email" class="input-padrao" >
+          <input type="email" id="email" class="input-padrao" >
 
           <label for="telefone">Telefone:</label>
-          <input type="text" id="telefone" class="input-padrao">
+          <input type="tel" id="telefone" class="input-padrao">
 
           <label for="msg">Mensagem</label>
           <textarea name="Mensagem" id="msg"  cols="70" rows="10" class="input-padrao"></textarea>
 
           <div>
             <p>Como prefere o nosso contato?</p>
-            <label for="radio-email">Email</label>
-            <input type="radio" name=contato value="email" id="radio-email">
+            <label for="radio-email"><input type="radio" name=contato value="email" id="radio-email">Email</label>         
+               
   
-            <label for="radio-telefone">Telefone</label>
-            <input type="radio" name=contato value="Telefone" id="raio-telefone">
+            <label for="radio-telefone"><input type="radio" name=contato value="telefone" id="raio-telefone">Telefone</label>            
   
-            <label for="zap-radio">WhatsApp</label>
-            <input type="radio" name=contato value="Whatsapp" id="zap-radio">
+            <label for="zap-radio"><input type="radio" name=contato value="whatsapp" id="zap-radio">WhatsApp</label>
+            
   
           </div>
+          <div>
+            <p>Qual o horário prefere ser atendido?</p>
+            <select>
+              <option >Manhã</option>
+              <option >Tarde</option>
+              <option >Noite</option>
+            </select>
+          </div>
+          
 
           <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades?</label>
           
