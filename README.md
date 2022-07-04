@@ -22,3 +22,13 @@ Proposta inicial é criar uma pagina para uma "Barbearia" utilizando inicialment
 •Lidando com bordas;
 
 •Pseudo-classes CSS;
+
+•Começando um formulário;
+
+•Tipos de campos diferentes;
+
+•Melhorando a semântica;
+
+•CSS avançado;
+
+•Estrutura de tabelas;
