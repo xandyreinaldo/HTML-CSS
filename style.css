@@ -220,6 +220,7 @@ td, th{
 
 
 /* tornando o programa responsivo*/
+
 @media screen and (max-width:480px){
   .caixa, .principal, .conteudoBeneficio, .mapa-conteudo, .video{
     width: auto;

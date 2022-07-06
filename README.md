@@ -32,3 +32,13 @@ Proposta inicial é criar uma pagina para uma "Barbearia" utilizando inicialment
 •CSS avançado;
 
 •Estrutura de tabelas;
+
+•Adaptando a página inicial;
+
+•Conteúdo externo;
+
+•Melhorando o CSS;
+
+•Opacidade e sombra;
+
+•Design responsivo;
