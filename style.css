@@ -18,8 +18,7 @@ nav {
 }
 nav li {
   display: inline;
-  margin: 0 0 0 15px;
-
+  margin: 0 0 0 15px;  
 }
 nav a{
   text-transform: uppercase;
@@ -119,6 +118,7 @@ div label, div legend {
   border-radius: 5px;
   cursor: pointer;
   transition: 1s all;
+  box-shadow: 5px 5px 10px #555555;
 }
 .enviar:hover {
   background: rgba(20, 19, 19, 0.491);
@@ -146,6 +146,7 @@ td, th{
   font-size: 2em;
   margin: 0 0 1em;
   clear: left;
+ 
 }
 .principal{
   padding: 3em 0;
@@ -170,12 +171,16 @@ td, th{
 }
 .imageBeneficios{
   width: 60%;
-  }
+  border-radius: 20px;
+  box-shadow: -7px 7px 2px rgba(18, 17, 17, 0.139);
+}
 
 .utensilios{
   width: 120px;
   float: left;
   margin: 0 20px 20px 0;
+  box-shadow: -5px 5px 4px#888;
+  border-radius: 10px;
 } 
 .map{
   padding: 3em 0; 
@@ -189,17 +194,17 @@ td, th{
   margin: 0 0 2em;
   text-align: center;
 }
-
 .conteudoBeneficio {
   width: 640px;
   margin: 0 auto;
 }
-
-
 .listaBeneficios{
   width: 40%;
   display: inline-block;
   vertical-align: top;
+}
+.itens::before{
+  content: "★";
 }
 .itens{
   line-height: 1.5 50%;
@@ -207,9 +212,44 @@ td, th{
 .itens:nth-child(1) {
   font-weight: bold;
 }
-
 .video{
   width: 560px;
   margin: 2em auto;
-  
+  box-shadow: -10px 10px 5px #555555;
 }
+
+
+/* tornando o programa responsivo*/
+@media screen and (max-width:480px){
+  .caixa, .principal, .conteudoBeneficio, .mapa-conteudo, .video{
+    width: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  nav {
+    position: static;
+  }
+  .listaBeneficios, .imageBeneficios, .produtos{
+    width: 100%;
+       
+  }
+  .listaBeneficios{
+    margin: 30px;
+  }
+  
+  .produtos, .produtos li {
+    width: auto;
+    display: inline-block
+    padding: 5px 5px;
+    margin: 10px 10px;
+  }
+  .input-padrao {
+    width: auto;
+  }
+  
+  .enviar {
+    width:auto;
+  }
+}
+  
