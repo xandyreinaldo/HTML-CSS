@@ -232,7 +232,6 @@ td, th{
   }
   .listaBeneficios, .imageBeneficios, .produtos{
     width: 100%;
-       
   }
   .listaBeneficios{
     margin: 30px;
@@ -247,9 +246,7 @@ td, th{
   .input-padrao {
     width: auto;
   }
-  
   .enviar {
     width:auto;
   }
 }
-  
