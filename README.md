@@ -1,4 +1,6 @@
 # HTML-CSS
+![](https://github.com/xandyreinaldo/HTML-CSS/blob/main/image/apresentacao.gif)
+<br>
 Proposta inicial é criar uma pagina para uma "Barbearia" utilizando inicialmente HTML e CSS.
 
 •Marcação do primeiro texto;
